@@ -23,9 +23,16 @@ Run the application
 API Endpoints
 
 Method	Endpoint	    Description
+
 GET 	 /blogs/greet  Returns "hello"
+
 POST	 /blogs/new	   Create a new blog
+
 GET 	 /blogs/all	   Retrieve all blogs
+
 GET 	 /blogs/{id}	 Retrieve blog by ID
+
 PUT 	 /blogs/{id}	 Update a blog by ID
+
 DELETE /blogs/{id}	 Delete a blog by ID
+
