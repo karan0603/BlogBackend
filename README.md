@@ -1,4 +1,4 @@
-BlogBackend
+BlogBackend:
 A simple Spring Boot backend for managing blogs.
 
 Getting Started
@@ -7,21 +7,18 @@ Java 17+
 MySQL
 Maven
 
-Setup
+Setup:
 Clone the repository
 git clone https://github.com/karan0603/BlogBackend.git
 cd BlogBackend
-
 
 Configure the database (update application.properties in src/main/resources/)
 spring.datasource.url=jdbc:mysql://localhost:3306/blogdb
 spring.datasource.username=root
 spring.datasource.password=your-password
 
-
 Run the application
 ./mvnw spring-boot:run
-
 
 API Endpoints
 
